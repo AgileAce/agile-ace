@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  font-family: 'Josefin Sans', 'Andale Mono';
+    overflow-x: hidden;
+}
+
+#main_page #sessionID {
+     margin-top: 80px;
+}
+
+#main_page #sessionID .sessionText {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 30%;
+    display: block;
+}
+
+#main_page #sessionID .sessionBtn{
+    margin: 10px auto auto;
+    display: block;
+    font-size: 20px;
+    border: #d96d32;
+    background-color: #d96d32;
+    width: 20%;
+    height: 40px;
+}
+
+#main_page .orText {
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+#main_page #newSession {
+    margin-top: 60px ;
+}
+
+#main_page #newSession .newSessionText {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.marginTop {
+    margin-top: 10px;
+}
+
+#main_page #newSession .newSessionBtn{
+    margin: 10px auto auto;
+    display: block;
+    font-size: 20px;
+    border: #fda94e;
+    background-color: #fda94e;
+    width: 20%;
+    height: 35px;
+}
+
+
+/* Utility Classes */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-size-8 {
+    font-size: 8px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-32 {
+    font-size: 32px;
+}
+
+.font-size-64 {
+    font-size: 64px;
+}
+
+.no-effects {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+}
+
+/*  Global Styles */
+p {
+    margin-bottom: 0;
+}
+
+.flex-center .btn ion-icon, a ion-icon {
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.scrollable {
+    max-height: 535px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.btn {
+    transition: 0.3s all;
+}
+
+.login_btn:hover, .btn:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* Scrollbar thinner */
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #767676;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d96d32;
+}
+
+/* Game */
+.issues {
+    max-width: 250px;
+}
+
+.issue .d-flex.align-items-start.m-auto.flex-column {
+    width: max-content;
+    cursor: pointer;
+}
+
+/* Login Page */
+.login_body {
+    background-image: linear-gradient(to right, #fda94e, #d96d32);
+    height: 90vh;
+}
+.login {
+    height: max-content;
+}
+.login_btn {
+    background-image: linear-gradient(to right, #fda94e, #d96d32);
+    color: #fff;
+    transition: 0.3s all;
+}
