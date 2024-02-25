@@ -4,7 +4,9 @@
 
 ## Project Overview
 
-This project started as a 24-hour coding challenge as part of [DevHacks 2024](https://github.com/devhacks-2024) which was developed in collaboration thanks to...
+This project started as a 24-hour coding challenge as part of [DevHacks 2024](https://github.com/devhacks-2024) which was developed in collaboration with [Jashan Gill](https://github.com/Jashann), [Luxiang Lin](https://github.com/Dav888Lucien), [Xiang Shi](https://github.com/Dean6622), [Nhat Nam](https://github.com/nnm2602), and myself, [Kameron Ronald](https://github.com/Kameroni33).
+
+Since then, the project has been transitioned here, where development continues to create a finished and complete product.
 
 ...
 
